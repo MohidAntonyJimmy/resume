@@ -57,6 +57,21 @@
         }
 
         </style>
+
+<script>
+  var prevScrollpos = window.pageYOffset;
+  window.onscroll = function() {
+  var currentScrollPos = window.pageYOffset;
+    if (prevScrollpos > currentScrollPos) {
+      document.getElementById("navbar").style.top = "0";
+    } else {
+      document.getElementById("navbar").style.top = "-50px";
+    }
+    prevScrollpos = currentScrollPos;
+  }
+  </script>
+
+
       </head>
       
       
@@ -70,12 +85,12 @@
                     
                       <a href="#CAREER OBJECTIVE">Career Objective<abbr title="CAREER OBJECTIVE"></abbr></a>
                       <a href="#WORK EXPERIENCE">Work Experience<abbr title="WORK EXPERIENCE"></abbr></a>
-                      <a href="#ACADEMIC DETAILS">Academic Details<abbr title="ACADEMIC DETAILS"></abbr></a>
+                      <!-- <a href="#ACADEMIC DETAILS">Academic Details<abbr title="ACADEMIC DETAILS"></abbr></a>
                       <a href="#LICENSES & CERTIFICATES">Licenses & Certificates<abbr title="LICENSES & CERTIFICATES"></abbr></a>
                       <a href="#TECHNICAL SKILLS">Technical Skills<abbr title="TECHNICAL SKILLS"></abbr></a>
                       <a href="#PROJECT">Project<abbr title="PROJECT"></abbr></a>
                       <a href="#INTERNSHIPS AND INDUSTRIAL VISITS">Interships and Industrial Visits<abbr title="INTERNSHIPS AND INDUSTRIAL VISITS"></abbr></a>
-                      <a href="#PERSONAL DETAILS">Personal Details<abbr title="PERSONAL DETAILS"></abbr></a>
+                      <a href="#PERSONAL DETAILS">Personal Details<abbr title="PERSONAL DETAILS"></abbr></a> -->
                      
                 </ul>
             </nav>
@@ -89,7 +104,7 @@
 
                 <table width="100%" style="background-color: f7fbfe;">
                               <tr>
-                                      <td align="center">
+                                      <td style="padding: 40px;">
                                         <h2>MOHID ANTONY JIMMY</h2>
                                       </td>
                                       <td rowspan="2" align="Right">
@@ -100,7 +115,7 @@
                               </tr> 
 
                               <tr>
-                                <td align="left">
+                                <td>
                                   <ul type="none">
                                     <li><strong>Email-id: mohidantonyjimmy@gmail.com</strong></li>
                                     <li><strong>Mobile No: +91 9947311028</strong></li>
@@ -155,7 +170,7 @@
                   
                   <!-- TCS experience -->
                   <tr>
-                    <td>
+                    <td width="150px">
                       <figure>
                         <img src="img/tcs.png" title="tcs" width="50px" height="35px" >
                       </figure>
@@ -165,13 +180,11 @@
                     </td>
                   </tr>
                   <tr>
-                    <td>
+                    <td colspan="2">
                       <ul type="none">
                         <li>Client – Prudential Insurance</li>
                         <li>From [01/03/2023] - Presently</li>
                       </ul>
-                    </td>
-                    <td>
                     </td>
                   </tr>
 
@@ -217,13 +230,11 @@
                   </td>
                 </tr>
                 <tr>
-                  <td>
+                  <td colspan="2">
                     <ul type="none">
                       <li>Client – KPMG Global</li>
                       <li>From [15/02/2021] - [10/02/2023]</li>
                     </ul>
-                  </td>
-                  <td>
                   </td>
                 </tr>
 
@@ -259,13 +270,11 @@
 
               <!-- Orion 2 experience -->
               <tr>
-                <td>
+                <td colspan="2">
                   <ul type="none">
                     <li>Client – Orion Innovation (Internal-Parallel Project)</li>
                     <li>From [15/02/2021] - [10/02/2023]</li>
                   </ul>
-                </td>
-                <td>
                 </td>
               </tr>
 
@@ -305,12 +314,10 @@
               </td>
             </tr>
             <tr>
-              <td>
+              <td colspan="2">
                 <ul type="none">
                   <li>From [12/08/2020] - [12/02/2021]</li>
                 </ul>
-              </td>
-              <td>
               </td>
             </tr>
 
